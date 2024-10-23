@@ -9,6 +9,7 @@
             echo "<p style = 'color:red'>Tên tài khoản hoặc mật khẩu không đúng</p>"; 
         }
     }
+    //Đây là comment 2
 ?>
     <form method = "POST">
         Username: <input type = "text" name = "user">
