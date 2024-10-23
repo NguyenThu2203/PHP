@@ -1,0 +1,195 @@
+img{
+    width: 100px;
+    height: 100px;
+}
+#ds_trang {
+    text-align: center; /* Căn giữa các nút phân trang */
+    margin: 20px 0;
+}
+
+#ds_trang a {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 0 5px;
+    text-decoration: none; /* Xóa gạch chân mặc định */
+    background-color: #007bff; /* Màu nền nút */
+    color: white; /* Màu chữ */
+    border-radius: 5px; /* Tạo góc bo tròn cho nút */
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#ds_trang a:hover {
+    background-color: #0056b3; /* Màu nền khi hover */
+}
+
+#ds_trang a.active {
+    background-color: #28a745; /* Màu nền cho trang hiện tại */
+    pointer-events: none; /* Không cho phép nhấp vào trang hiện tại */
+}
+
+/* Cài đặt chung cho toàn bộ trang */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+}
+
+h1 {
+    color: #0056b3;
+    margin-top: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Định dạng cho bảng */
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+thead th {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+tbody td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hình ảnh sản phẩm */
+img {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    background-color: #fff;
+}
+
+/* Link điều hướng và nút */
+a {
+    text-decoration: none;
+    color: #0056b3;
+}
+
+a:hover {
+    color: #003d80;
+    text-decoration: underline;
+}
+
+.themsp {
+    margin: 20px;
+}
+
+.themsp a {
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.themsp a:hover {
+    background-color: #003d80;
+}
+
+/* Đặt container để chia cột */
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+/* Cài đặt cho danh mục sản phẩm (bên trái) */
+.category {
+    width: 30%; /* Chiếm 30% chiều rộng */
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.category h2 {
+    text-align: center;
+    color: #0056b3;
+    margin-bottom: 10px;
+}
+
+.category table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.category th, .category td {
+    padding: 10px;
+    text-align: center;
+}
+
+.category a {
+    text-decoration: none;
+    color: #0056b3;
+}
+
+.category a:hover {
+    color: #003d80;
+    text-decoration: underline;
+}
+
+/* Cài đặt cho bảng sản phẩm (bên phải) */
+.product {
+    width: 65%; /* Chiếm 65% chiều rộng */
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product h2 {
+    text-align: center;
+    color: #0056b3;
+    margin-bottom: 10px;
+}
+
+.product table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.product th, .product td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.product tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hình ảnh sản phẩm */
+.product img {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    background-color: #fff;
+}
